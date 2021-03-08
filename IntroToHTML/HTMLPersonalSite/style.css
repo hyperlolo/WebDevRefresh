@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+}
+
+@counter-style edu-emoji {
+    system: cyclic;
+    symbols: "🎓" "📜" "📜" "📜" "🎓";
+    suffix: " ";
+}
+
+#edu {
+    display: inline-block;
+    text-align: left;
+    list-style-type: edu-emoji;
+}
+
