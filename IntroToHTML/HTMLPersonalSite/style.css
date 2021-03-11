@@ -25,3 +25,7 @@ div{
     text-align: left;
     list-style-type: hobb-emoji;
 }
+
+#self{
+    border-style: outset;
+}
