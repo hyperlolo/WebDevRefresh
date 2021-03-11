@@ -8,9 +8,20 @@ div{
     suffix: " ";
 }
 
+@counter-style hobb-emoji {
+    system: cyclic;
+    symbols: "🌱" "🐟" "🎮" "📈";
+    suffix: " ";
+}
+
 #edu, #hobb {
     display: inline-block;
     text-align: left;
     list-style-type: edu-emoji;
 }
 
+#hobb {
+    display: inline-block;
+    text-align: left;
+    list-style-type: hobb-emoji;
+}
