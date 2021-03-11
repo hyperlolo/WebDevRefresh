@@ -10,7 +10,7 @@ div{
 
 @counter-style hobb-emoji {
     system: cyclic;
-    symbols: "🌱" "🐟" "🎮" "📈";
+    symbols: "🌱" "🐟" "🎮" "📈" "📚";
     suffix: " ";
 }
 
@@ -26,6 +26,19 @@ div{
     list-style-type: hobb-emoji;
 }
 
-#self{
-    border-style: outset;
+.self_circle{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 70%;
+}
+
+.self_img{
+    display: inline;
+    margin: 0 auto;
+    margin-left: 0%;
+    height: 100%;
+    width: auto;
 }
