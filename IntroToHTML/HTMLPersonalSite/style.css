@@ -26,6 +26,11 @@ div{
     list-style-type: hobb-emoji;
 }
 
+#cont_list{
+    display:inline-block;
+    text-align: left;
+}
+
 .self_circle{
     margin-left: auto;
     margin-right: auto;
