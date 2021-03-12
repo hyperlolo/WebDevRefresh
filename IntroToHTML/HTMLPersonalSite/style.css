@@ -1,6 +1,19 @@
 div{
     text-align: center;
 }
+ul, ol {
+    display:inline-block;
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 3px;
+}
 
 @counter-style edu-emoji {
     system: cyclic;
@@ -19,28 +32,17 @@ div{
     suffix: " ";
 }
 
-#edu, #hobb {
-    display: inline-block;
-    text-align: left;
+#edu {
     list-style-type: edu-emoji;
 }
 
 #hobb {
-    display: inline-block;
-    text-align: left;
     list-style-type: hobb-emoji;
 }
 
-#cont_list{
-    display:inline-block;
-    text-align: left;
-}
-
-#work {
-    display: inline-block;
-    text-align: left;
+/* #work {
     list-style-type: work-emoji;
-}
+} */
 
 .self_circle{
     margin-left: auto;
