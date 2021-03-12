@@ -13,6 +13,11 @@ div{
     symbols: "🌱" "🐟" "🎮" "📈" "📚";
     suffix: " ";
 }
+@counter-style work-emoji {
+    system: cyclic;
+    symbols: "🌐" "📝" "🛠️";
+    suffix: " ";
+}
 
 #edu, #hobb {
     display: inline-block;
@@ -29,6 +34,12 @@ div{
 #cont_list{
     display:inline-block;
     text-align: left;
+}
+
+#work {
+    display: inline-block;
+    text-align: left;
+    list-style-type: work-emoji;
 }
 
 .self_circle{
