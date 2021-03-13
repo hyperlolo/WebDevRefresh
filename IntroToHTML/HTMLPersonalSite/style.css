@@ -1,6 +1,19 @@
 div{
     text-align: center;
 }
+
+
+a:visited{
+    text-decoration-color: purple;
+}
+
+a{
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+
+
+}
+
 ul, ol {
     display:inline-block;
     text-align: left;
@@ -40,9 +53,9 @@ td {
     list-style-type: hobb-emoji;
 }
 
-/* #work {
+#work {
     list-style-type: work-emoji;
-} */
+}
 
 .self_circle{
     margin-left: auto;
