@@ -28,21 +28,22 @@
         </div>
         <hr>
         <div id= cont_form>
-            <form class="contact" action="contact.html" method="post">
+            <form action="mailto:hyperlolorb@gmail.com" method="post" enctype="text/plain">
                 <label>First Name: </label>
-                <input type="text" fname="" value="">
+                <input type="text" name="firstName" value="">
                 <br>
                 <label>Last Name: </label>
-                <input type="text" lname="" value="">
+                <input type="text" name="lastName" value="">
                 <br>
                 <label>Your Company: </label>
-                <input type="text" company="" value="">
+                <input type="text" name="companyName" value="">
                 <br>
                 <label>Your Email: </label>
-                <input type="email" email="" value="">
+                <input type="email" name="contEmail" value="">
                 <br>
                 <label>Message: </label>
-                <textarea id= "message" name="Message" placeholder= "Please write your message here."></textarea>
+                <textarea id= "message" name="message" placeholder= "Please write your message here." 
+                rows="8" cols="80"></textarea>
                 <input type="submit" name="" value="Submit">
             </form>
         </div>
