@@ -10,7 +10,7 @@
         <title>My Hobbies</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
         <div id="hobbies">
@@ -22,14 +22,15 @@
                 <li>Stock Market</li>
                 <li>Anime/Manga</li>
             </ul>
-            <div id = home>
-                <a href="index.html"><h2>Back Home</h2></a>
-            </div>
+            <br>
+            <script>
+                document.write('<a href="' + document.referrer + '">Go Back</a>');
+            </script>
             <hr>
         </div>
         <div id=one_piece>
             <h2>Favorite Anime</h2>
-            <img alt="One Piece Ch 999 and 1000 cover photo" src="img/Chapter_516.png">
+            <img alt="One Piece Ch 999 and 1000 cover photo" src="../img/Chapter_516.png">
         </div>
         <hr>
         <div id=op_hist>
