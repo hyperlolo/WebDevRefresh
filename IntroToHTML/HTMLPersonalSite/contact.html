@@ -14,7 +14,10 @@
     </head>
     <body>
         <div id = contact>
-        <h1>Contact Information</h1>
+            <h1>Contact Information</h1>
+        <div>
+            <a href="index.html"><h2>Back Home</h2></a>
+        </div>
         <hr>
         <ol id= cont_list>
             <li><strong>Name: </strong>Karanjit Gill</li>
@@ -24,9 +27,26 @@
         </ol>
         </div>
         <hr>
-        <div>
-            <a href="index.html"><h2>Back Home</h2></a>
+        <div id= cont_form>
+            <form class="contact" action="contact.html" method="post">
+                <label>First Name: </label>
+                <input type="text" fname="" value="">
+                <br>
+                <label>Last Name: </label>
+                <input type="text" lname="" value="">
+                <br>
+                <label>Your Company: </label>
+                <input type="text" company="" value="">
+                <br>
+                <label>Your Email: </label>
+                <input type="email" email="" value="">
+                <br>
+                <label>Message: </label>
+                <textarea id= "message" name="Message" placeholder= "Please write your message here."></textarea>
+                <input type="submit" name="" value="Submit">
+            </form>
         </div>
+
         <script src="" async defer></script>
     </body>
 </html>
