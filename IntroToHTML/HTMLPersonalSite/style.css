@@ -1,10 +1,16 @@
 body{
     background-color: #E8ECEE;
 }
+
+hr {
+    background-color: #4F7E26;
+    height: 1px;
+    border-style: none; 
+}
+
 div{
     text-align: center;
 }
-
 
 a:visited{
     text-decoration-color: purple;
