@@ -17,3 +17,7 @@ img {
     margin-right: auto;
     overflow: hidden;
 }
+
+#sloth {
+    background-color: lightgreen;
+}
