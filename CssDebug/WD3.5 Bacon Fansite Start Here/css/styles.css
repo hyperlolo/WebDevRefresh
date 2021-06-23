@@ -12,6 +12,14 @@ p {
     text-align: center;
 }
 
+#bacon:hover {
+    background-color: darkorange;
+}
+
+#sloth:hover {
+    background-color:greenyellow
+}
+
 img {
     display:block;
     margin-left: auto;
@@ -19,10 +27,17 @@ img {
     overflow: hidden;
 }
 
+
+
 #bacon {
     background-color:crimson;
 }
 
 #sloth {
     background-color: lightgreen;
+    border-radius: 100%;
+}
+
+.heading {
+    color:crimson;
 }
