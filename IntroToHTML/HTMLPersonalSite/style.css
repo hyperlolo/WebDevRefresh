@@ -1,106 +1,89 @@
-body{
-    background-color: #E8ECEE;
+#edu {
+	list-style-type: edu-emoji;
 }
-
-h1, h2, h3 {
-    color: black;
+#hobb {
+	list-style-type: hobb-emoji;
 }
-
-hr {
-    background-color: none;
-    border-color: lightgrey;
-    border-width: 5px;
-    width: 5%;
-    border-style: dotted none none none;
-
+#work {
+	list-style-type: work-emoji;
 }
-
-div{
-    text-align: center;
+.self_circle {
+	border-radius: 70%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 300px;
 }
-
-a:visited{
-    text-decoration-color: purple;
+.self_img {
+	display: inline;
+	height: 90%;
+	margin: 0 auto;
+	margin-left: 0%;
+	width: auto;
 }
-
-a{
-    text-decoration-color: blue;
-    text-decoration-thickness: 2px;
-
-
-}
-
-ul, ol {
-    display:inline-block;
-    text-align: left;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-    border-spacing: 3px;
-}
-
-td {
-    padding: 3px;
-}
-
 @counter-style edu-emoji {
-    system: cyclic;
-    symbols: "🎓" "📜" "📜" "📜" "🎓";
-    suffix: " ";
+	suffix: " ";
+	symbols: "🎓" "📜" "📜" "📜" "🎓";
+	system: cyclic;
 }
-
 @counter-style hobb-emoji {
-    system: cyclic;
-    symbols: "🌱" "🐟" "🎮" "📈" "📚";
-    suffix: " ";
+	suffix: " ";
+	symbols: "🌱" "🐟" "🎮" "📈" "📚";
+	system: cyclic;
 }
 @counter-style work-emoji {
-    system: cyclic;
-    symbols: "🌐" "📝" "🛠️";
-    suffix: " ";
+	suffix: " ";
+	symbols: "🌐" "📝" "🛠️";
+	system: cyclic;
 }
-
-#edu {
-    list-style-type: edu-emoji;
+a {
+	text-decoration-color: blue;
+	text-decoration-thickness: 2px;
 }
-
-#hobb {
-    list-style-type: hobb-emoji;
+a:visited {
+	text-decoration-color: purple;
 }
-
-#work {
-    list-style-type: work-emoji;
+body {
+	background-color: #E8ECEE;
 }
-
-.self_circle{
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 70%;
+div {
+	text-align: center;
 }
-
-.self_img{
-    display: inline;
-    margin: 0 auto;
-    margin-left: 0%;
-    height: 90%;
-    width: auto;
+h1, h2, h3 {
+	color: black;
 }
-
-label{
-    margin-left: auto;
-    margin-right: auto;
-    display:block;}
-textarea{
-    margin-left: auto;
-    margin-right: auto;
-    display:block;}
-input{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+hr {
+	background-color: none;
+	border-color: lightgrey;
+	border-style: dotted none none none;
+	border-width: 5px;
+	width: 5%;
+}
+input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+label {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	border-spacing: 3px;
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	padding: 3px;
+}
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul, ol {
+	display: inline-block;
+	text-align: left;
 }
