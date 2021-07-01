@@ -1,9 +1,29 @@
 body {
+margin: 0px;
+}
 
+#name {
+    margin-top: 0px;
 }
 
 
-.title {
+.topCont {
     background-color: #2FB1A2;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px;
     text-align: center;
+}
+
+.midCont {
+    width: 200px;
+    height: 200px;
+    background-color: #E9C46A;
+ 
+}
+
+.botCont {
+    width: 200px;
+    height: 200px;
+    background-color: #F4A261;
 }
