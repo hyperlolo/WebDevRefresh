@@ -1,29 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat&family=Open+Sans&display=swap');
+
 body {
-margin: 0px;
+margin: 0;
+text-align: center;
+padding-top: 100px;
+font-family: "Open Sans", sans-serif;
 }
 
 #name {
     margin-top: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+#job {
+    font-family: "Montserrat", sans-serif;
 }
 
 
 .topCont {
-    background-color: #2FB1A2;
+    background-color: #87CEFA;
     /* padding-top: 20px;
     padding-bottom: 20px; */
-    padding: 20px;
-    text-align: center;
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 .midCont {
-    width: 200px;
-    height: 200px;
-    background-color: #E9C46A;
+
  
 }
 
 .botCont {
-    width: 200px;
-    height: 200px;
-    background-color: #F4A261;
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.cloud-top {
+    position: absolute;
+    right: 30%;
+    top: 5%;
+}
+
+.cloud-bot {
+    position: absolute;
+}
+
+#self-img {
+    height: 8%;
+    width: 8%;
 }
